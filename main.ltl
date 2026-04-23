@@ -1,0 +1,15 @@
+// ltl-rnn-demo/main.ltl
+//
+// Vanilla RNN character-level language model.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-rnn-demo v0.1.0")
+    io::println("Vanilla RNN character-level language model.")
+    0
+}
